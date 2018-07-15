@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/my/HarvestAddress/HarvestAddress",
+    "pages/Login/Login",
+    "pages/Login/cellPhoen/cellPhoen",
+    "pages/my/MyContact/MyContact",
+    "pages/my/MyTwoDimensionCode/MyTwoDimensionCode",
+    "pages/my/MyCellPhone/MyCellPhone",
+    "pages/demo/demo",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "来码",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#000000",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./images/tabbar-i1.png",
+        "selectedIconPath": "./images/tabbar-i1-on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/tabbar-i2.png",
+        "selectedIconPath": "./images/tabbar-i2-on.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "测试页面"
+      }
+    ]
+  }
+}

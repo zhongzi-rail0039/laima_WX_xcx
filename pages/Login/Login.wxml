@@ -1,0 +1,8 @@
+<!-- pages/Login/Login.wxml -->
+<view class="myLogin">
+  <view class="myLogin-empty">
+    <image src="../../images/Icon-img.png" />
+  </view>
+  <button class="phonelogin primary" bindtap="CellPhone">手机号码登录/注册</button>
+  <view class="myLogin-treaty">登录代表你同意<text class="myLogin-treaty-text">来码服务和隐私条款</text></view>
+</view>

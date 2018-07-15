@@ -1,0 +1,36 @@
+<!-- pages/my/my.wxml -->
+<view class="my container">
+  <view class="my-hd flex flex-cross-center">
+    <view class="my-logo">
+      <image src="../../images/my-logo.png" class="blockImg" />
+    </view>
+    <button class="my-login" bindtap="MyLogin" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击登录</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="my-logo" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="my-menu">
+    <view class="my-none my-menuItem" bindtap="TwoDimensionCode">
+      <i class="iconfont icon-erweima"></i>
+      我的二维码
+    </view>
+    <view class="my-two my-menuItem" bindtap="HarvestAddress">
+      <i class="iconfont icon-shouhuodizhi2"></i>
+      我的收获地址
+    </view>
+    <view class="my-three my-menuItem">
+      <i class="iconfont icon-fankui"></i>
+      用户反馈
+    </view>
+    <view class="my-three my-menuItem" bindtap="ContactUs">
+      <i class="iconfont icon-lianxiwomen2"></i>
+      联系我们
+    </view>
+    <view class="my-two my-menuItem">
+      <i class="iconfont icon-ruanjianshezhi"></i>
+      软件设置
+    </view>
+  </view>
+  <view class="my-dl-center">退出登录</view>
+</view>

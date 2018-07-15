@@ -1,0 +1,10 @@
+<!--pages/demo/demo.wxml-->
+<view class="container">
+  <input type="input" placeholder="请输入值..." bindinput="input_rsa"/>
+  <view class="output">
+    <view class="output01">输出结果:</view>
+    <view class="output02">{{output}}</view>
+  </view>
+  <view class="jiami" bindtap="jiami">加密</view>
+  <view class="jiemi" bindtap="jiemi">解密</view>
+</view>

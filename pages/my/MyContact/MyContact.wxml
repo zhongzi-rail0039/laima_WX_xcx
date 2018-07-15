@@ -1,0 +1,19 @@
+<!--pages/my/MyContact/MyContact.wxml-->
+<view class="contact">
+  <view class="contact-item flex flex-dir-top flex-main-center">
+    <view bindtap="studioPhoneCall">
+      <view class="contact-type">座机号码</view>
+      <view class="contact-number">0519-88198889</view>
+    </view>
+  </view>
+  <view class="contact-item flex flex-dir-top flex-main-center">
+    <view bindtap="cellphone">
+      <view class="contact-type">手机号码</view>
+      <view class="contact-number">158-6189-8889</view>
+    </view>
+  </view>
+  <view class="contact-ercode">
+    <image src="../../../images/ercode.png" class="blockImg"/>
+  </view>
+  <view class="contact-text">联系我们</view>
+</view>
