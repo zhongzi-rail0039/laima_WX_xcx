@@ -15,7 +15,7 @@
       </view>
     </view>
     <view class="myshop-swiper">
-      <swiper indicator-dots="true" indicator-color="#5d5d5d" indicator-active-color="#fff">
+      <swiper indicator-dots="true" autoplay="true" interval="5000" indicator-color="#5d5d5d" indicator-active-color="#fff">
         <block>
           <swiper-item>
             <view bindtap="ShopDetailed">
@@ -33,6 +33,38 @@
               </view>
             </view>
           </swiper-item>
+
+          <swiper-item>
+            <view class="shopItem">
+              <view class="shopItem-hd flex">
+                <view class="shopItem-logo">
+                  <image src="../../images/shop-logo.png" class="blockImg" />
+                </view>
+                <view class="shopItem-info">
+                  <view class="shopItem-title">第七天堂</view>
+                  <view class="shopItem-number">3709.00</view>
+                </view>
+              </view>
+              <view class="shopItem-gz"></view>
+            </view>
+          </swiper-item>
+
+          <swiper-item>
+            <view class="shopItem">
+              <view class="shopItem-hd flex">
+                <view class="shopItem-logo">
+                  <image src="../../images/shop-logo.png" class="blockImg" />
+                </view>
+                <view class="shopItem-info">
+                  <view class="shopItem-title">第七天堂</view>
+                  <view class="shopItem-number">3709.00</view>
+                </view>
+              </view>
+              <view class="shopItem-gz"></view>
+            </view>
+          </swiper-item>
+
+          
           <swiper-item>
             <view class="shopItem">
               <view class="shopItem-hd flex">
@@ -59,37 +91,47 @@
         <view bindtap="MemberPayment" hover-class="none">查看更多</view>
       </view>
     </view>
+
     <view class="payshop-bd">
-      <scroll-view scroll-x="true" class="payshop-scroll">
+      <!-- 会员支付轮播页面 -->
+      <scroll-view scroll-x="true" style="white-space: nowrap; display: flex" class="payshop-scroll">
         <view class="payshop-item">
           <view class="payshop-logo">
             <image src="../../images/fz-logo.png" class="blockImg"/>
           </view>
           <view class="payshop-name">第七天堂</view>
         </view>
-        <image src="../../images/sousuo.png" catchtap="searchShop" hover-class="none"></image>
-      </scroll-view>
-    </view>
-    <view class="payshop-bd">
-      <scroll-view class="payshop-scroll" scroll-x="true">
         <view class="payshop-item">
           <view class="payshop-logo">
-            <image src="../../images/fz-logo.png" class="blockImg" />
+            <image src="../../images/fz-logo.png" class="blockImg"/>
           </view>
           <view class="payshop-name">第七天堂</view>
         </view>
         <view class="payshop-item">
           <view class="payshop-logo">
-            <image src="../../images/fz-logo.png" class="blockImg" />
+            <image src="../../images/fz-logo.png" class="blockImg"/>
           </view>
-          <view class="payshop-name">来码测试</view>
+          <view class="payshop-name">第七天堂</view>
+        </view>
+        <view class="payshop-item">
+          <view class="payshop-logo">
+            <image src="../../images/fz-logo.png" class="blockImg"/>
+          </view>
+          <view class="payshop-name">第七天堂</view>
+        </view>
+        <view class="payshop-item">
+          <view class="payshop-logo">
+            <image src="../../images/fz-logo.png" class="blockImg"/>
+          </view>
+          <view class="payshop-name">第七天堂</view>
         </view>
       </scroll-view>
-      <!-- 搜索页面 -->
-      <view class="shopSearch shopSearch-fixed" hover-class="none"></view>
+      <view class="shopSearch" hover-class="none" bindtap="SearchShop"></view>
     </view>
   </view>
+
   <!-- 消费订单 -->
+
   <view class="consumeOrder">
     <view class="gTitle payshop-hd flex flex-main-justify">
       <view class="gTitle-title">消费订单</view>
@@ -97,6 +139,7 @@
         <view catchtap="consumerOrder" hover-class="none">查看更多</view>
       </view>
     </view>
+    <!-- 充值 -->
     <view class="consumeOrder-bd">
       <view class="consumeOrder-item flex">
         <view class="consumeOrder-logo">
@@ -110,26 +153,11 @@
           <view class="consumeOrder-time">时间: 05月24号16:21</view>
           <view class="consumeOrder-block flex flex-main-justify">
             <view class="consumeOrder-number">付款：120.00</view>
-            <view class="consumeOrder-method consumeOrder-method_alipay">付款方式：</view>
+            <view class="consumeOrder-method consumeOrder-method_wx">付款方式：</view>
           </view>
         </view>
       </view>
-      <view class="consumeOrder-item flex">
-        <view class="consumeOrder-logo">
-          <image src="../../images/fz-logo.png" class="blockImg" />
-        </view>
-        <view class="consumeOrder-info flex flex-dir-top flex-main-justify flex-box1">
-          <view class="consumeOrder-hd flex">
-            <view class="consumeOrder-name">第七天堂</view>
-            <view class="consumeOrder-ago">半小时内</view>
-          </view>
-          <view class="consumeOrder-time">时间：05月24号16:21</view>
-          <view class="consumeOrder-block flex flex-main-justify">
-            <view class="consumeOrder-number">付款：120.00</view>
-            <view class="consumeOrder-method consumeOrder-method_lai">付款方式：</view>
-          </view>
-        </view>
-      </view>
+
       <view class="consumeOrder-item flex">
         <view class="consumeOrder-logo">
           <image src="../../images/fz-logo.png" class="blockImg" />
@@ -146,6 +174,24 @@
           </view>
         </view>
       </view>
+
+      <view class="consumeOrder-item flex">
+        <view class="consumeOrder-logo">
+          <image src="../../images/fz-logo.png" class="blockImg" />
+        </view>
+        <view class="consumeOrder-info flex flex-dir-top flex-main-justify flex-box1">
+          <view class="consumeOrder-hd flex">
+            <view class="consumeOrder-name">第七天堂</view>
+            <view class="consumeOrder-ago">半小时内</view>
+          </view>
+          <view class="consumeOrder-time">时间：05月24号16:21</view>
+          <view class="consumeOrder-block flex flex-main-justify">
+            <view class="consumeOrder-number">付款：120.00</view>
+            <view class="consumeOrder-method consumeOrder-method_wx">付款方式：</view>
+          </view>
+        </view>
+      </view>
+
     </view>
   </view>
 </view>

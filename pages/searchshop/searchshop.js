@@ -1,7 +1,6 @@
-// pages/home/home.js
-import {Home} from './home-mode.js'
-let home = new Home()
+// pages/searchshop/searchshop.js
 Page({
+
   /**
    * 页面的初始数据
    */
@@ -12,20 +11,8 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  SearchShop: function() {
-    wx.navigateTo({
-      url: '../searchshop/searchshop'
-    })
-  },
-
   onLoad: function (options) {
-    this._loadData()
-  },
-
-  _loadData: function() {
-    home.getBannerData(res=>{
-      console.log(res)
-    })
+  
   },
 
   /**

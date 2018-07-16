@@ -90,43 +90,36 @@
 }
 
 .payshop {
-  margin-top: 21rpx;
+  margin-top: 20rpx;
 }
 
 .payshop-bd {
-  margin-top: 20rpx;
-  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  margin: -10rpx 10rpx 0;
 }
 
+
+
 .payshop-scroll {
-  height: 240rpx;
-  position: relative;
-  white-space: nowrap;
+  width: 78%;
 }
 
 .shopSearch {
   display: inline-block;
 	width: 134rpx;
-	height: 168rpx;
-	margin-top: 36rpx;
+  height: 174rpx;
+  margin-top: 36rpx;
 	margin-left: 19rpx;
-	background: url(http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/sousuo.png) 0 0 no-repeat;
-	background-size: 100%
+	background: url(http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/sousuo.png) 0rpx 0rpx no-repeat;
+  background-size: 100%;
+  flex: 1 1 auto;
 }
 
 .shopSearch-fixed {
   position: absolute;
 	right: 30rpx;
 	top: -2rpx
-}
-
-.payshop-item {
-  width: 192rpx;
-  height: 240rpx;
-  background: url('http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/payshop-bg.png') 0 0 no-repeat;
-  background-size: 100%;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .payshop-item {
@@ -158,10 +151,18 @@
   text-align: center;
 }
 
+.consumeOrder-item {
+  background-color: #FFF;
+  padding: 20rpx 18rpx;
+  margin-bottom: 26rpx;
+  box-shadow: 0 10rpx 10rpx 0 #e6e7ec;
+}
+
 .consumeOrder-logo {
   width: 120rpx;
   height: 120rpx;
-  margin-left: 20rpx;
+  margin: 0 20rpx 0 10rpx;
+  box-sizing: border-box;
 }
 
 .consumeOrder-hd {
@@ -186,3 +187,12 @@
   color: #666666;
 }
 
+.consumeOrder-method {
+  margin-right: 16rpx;
+}
+
+.consumeOrder-method_wx {
+  padding-right: 34rpx;
+	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/icon-wx.png") right center no-repeat;
+	background-size: auto 34rpx
+}

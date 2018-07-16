@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/searchshop/searchshop",
     "pages/my/my",
     "pages/my/HarvestAddress/HarvestAddress",
     "pages/Login/Login",
