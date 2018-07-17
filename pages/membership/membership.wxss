@@ -1,0 +1,62 @@
+/* pages/membership/membership.wxss */
+@import '../basestyle/FlexStyle.wxss';
+page {
+  background-color: #666;
+}
+
+.mycard {
+  margin-top: 40rpx;
+}
+
+.mycard-item {
+	width: 686rpx;
+	height: 200rpx;
+	margin: 0 auto;
+	margin-bottom: 40rpx
+}
+
+.mycard-item_1 {
+	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/card1.png");
+	background-size: 100%
+}
+
+.mycard-item_2 {
+	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/card2.png");
+	background-size: 100% 100%
+}
+
+.mycard-item_3 {
+	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/card3.png");
+	background-size: 100% 100%
+}
+
+.mycard-logo {
+	width: 96rpx;
+	height: 96rpx;
+	border: 1px solid #fff;
+	border-radius: 4rpx;
+	margin-left: 30rpx
+}
+
+.mycard-info {
+	margin-left: 20rpx;
+	color: #FFF
+}
+
+.mycard-name {
+	font-size: 34rpx;
+	height: 60rpx
+}
+
+.mycard-number {
+	font-size: 32rpx
+}
+
+/* .mycard-other {
+	font-size: 34rpx;
+	padding-right: 30rpx;
+	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/icon-rarrow.png") right center no-repeat;
+	background-size: 20rpx 34rpx;
+	color: #FFF;
+	margin: 0 auto
+} */

@@ -7,4 +7,6 @@
   </view>
   <view class="jiami" bindtap="jiami">加密</view>
   <view class="jiemi" bindtap="jiemi">解密</view>
+
+  <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bingGetUserInfo">获取用户信息(unionID)</button>
 </view>

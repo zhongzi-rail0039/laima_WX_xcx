@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/home/home",
+    "pages/my/MyCellPhone/MyCellPhone",
+    "pages/membership/membership",
     "pages/searchshop/searchshop",
+    "pages/demo/demo",
+    "pages/home/home",
     "pages/my/my",
     "pages/my/HarvestAddress/HarvestAddress",
     "pages/Login/Login",
@@ -9,7 +12,6 @@
     "pages/my/MyContact/MyContact",
     "pages/my/MyTwoDimensionCode/MyTwoDimensionCode",
     "pages/my/MyCellPhone/MyCellPhone",
-    "pages/demo/demo",
     "pages/index/index"
   ],
   "window": {

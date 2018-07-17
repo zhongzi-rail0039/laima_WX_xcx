@@ -1,5 +1,4 @@
 /* pages/demo/demo.wxss */
-/* pages/demo/demo.wxss */
 .container {
   width: 100%;
   height: 1200rpx;

@@ -1,11 +1,58 @@
+/*
+openid:"oRW9V44_akZitHlT1N-5Cj2JWvYw"   28
+session_key:"J3bhFsvdx+kkqYjE0suh5w=="  24
+unionid:"osXWExAzYJIfiTZ1cfacSWHL7ewE"
+*/
 // pages/demo/demo.js
 let RSA = require('../../utils/wxapp_rsa.js')
 import { privateKey, publicKey } from '../../utils/base.js'
 let Sig = ""
 let encStr = ""
 
+const APP_ID ='wx74c5fe138292bbda';
+const APP_SECRET ='5b39bd8bc6fbff9d1ef3ef479e9e554c';
+var OPEN_ID=''
+var SESSION_KEY=''
 Page({
 
+  bingGetUserInfo: function(event) {
+    console.log(event.detail);
+    let that = this;
+    wx.login({
+      success: function(res) {
+        // console.log('获取登录Code:' + data.res)
+        // let postData = {
+        //   code: data.code
+        // };
+        wx.request({
+          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=APPID&secret=SECRET&js_code=JSCODE&grant_type=authorization_code',
+          data: {
+            appid:APP_ID,
+            secret:APP_SECRET,
+            js_code:res.code,
+            grant_type:'authorization_code'
+          },
+          method: 'GET',
+          // header: {
+          //   'content-type': 'application/json',
+          // },
+          success: function(res) {
+            console.log(res.data);
+            OPEN_ID = res.data.openid;
+            SESSION_KEY = res.data.session_key;
+            console.log(OPEN_ID.length)
+            console.log(SESSION_KEY.length)
+          },
+          fail: function(error) {
+            console.log(error);
+          }
+        })
+      },
+      fail: function() {
+        console('登录获取Code失败！');
+      }
+    })
+  },
   /**
    * 页面的初始数据
    */
@@ -57,6 +104,7 @@ Page({
       })
     }
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

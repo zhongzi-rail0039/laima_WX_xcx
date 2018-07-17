@@ -4,6 +4,6 @@ class Config {
   constructor() {}
 }
 
-Config.restUrl = 'https://laima.natappvip.cc'
+Config.restUrl = 'https://laima.natappvip.cc/laima/'
 
 export {Config}

@@ -5,7 +5,7 @@ class Home extends Base {
   }
   getBannerData(callBack) {
     let params = {
-      url: '/laima/user/getActivityList?version=1&pageNum=1&accountId=1&category=',
+      url: '/laima/user/getActivityList?version=2&pageNum=2&accountId=2&category=',
       sCallBack: res => {
         callBack && callBack(res)
       }

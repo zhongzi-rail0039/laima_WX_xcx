@@ -1,0 +1,25 @@
+<!-- pages/membership/membership.wxml -->
+<view class="mycard">
+  <view url="/pages/shop/index" class="mycard-item mycard-item_2 flex flex-cross-center">
+    <view class="mycard-logo">
+      <image src="../../images/fz-logo.png" class="blockImg"/>
+    </view>
+    <view class="mycard-info">
+      <view class="mycard-name">第七天堂</view>
+      <view class="mycard-number">￥2000.00</view>
+    </view>
+  </view>
+  <view url="/pages/shop/index" class="mycard-item mycard-item_3 flex flex-cross-center">
+    <view class="mycard-logo">
+      <image src="../../images/fz-logo.png" class="blockImg"/>
+    </view>
+    <view class="mycard-info">
+      <view class="mycard-name">第七天堂</view>
+      <view class="mycard-number">￥2000.00</view>
+    </view>
+  </view>
+  <view class="mycard-item flex flex-cross-center">
+    <image src="../../images/card1.png"/>
+    <view class="mycard-other">其他优惠商家</view>
+  </view>
+</view>

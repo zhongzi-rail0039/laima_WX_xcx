@@ -1,2 +1,31 @@
 <!--pages/searchshop/searchshop.wxml-->
-<text>pages/searchshop/searchshop.wxml</text>
+
+<view class="search flex">
+  <view class="search-box flex flex-box1">
+    <image src="../../images/icon-search.png" class="search-icon flex-box0" />
+    <input type="text" placeholder="请输入店铺名" class="search-input flex-box1"/>
+  </view>
+  <view class="search-btn flex-box0">取消</view>
+</view>
+
+<!-- 搜索历史 -->
+<view class="search-history search-block">
+  <view class="search-historyTitle search-title">搜索历史</view>
+    <view class="search-historyList search-list">
+    <view class="search-historyItem search-tag">米田零食店324324</view>
+    <view class="search-historyItem search-tag">米田零食店</view>
+    <view class="search-historyItem search-tag">米田零食店</view>
+    <view class="search-historyItem search-tag">米田零食店</view>
+    <view class="search-historyItem search-tag">米田零食店</view>
+    <view class="search-historyItem search-tag">米田零食店</view>
+  </view>
+</view>
+<view class="recommendShop search-block">
+  <view class="recommendShop-title search-title">推荐店铺</view>
+  <view class="recommendShop-list search-list">
+    <view class="recommendShop-item search-tag">米田零食店</view>
+    <view class="recommendShop-item search-tag">肉肉的小姐</view>
+    <view class="recommendShop-item search-tag">麦子田间</view>
+    <view class="recommendShop-item search-tag">知乎乎</view>
+  </view>
+</view>
