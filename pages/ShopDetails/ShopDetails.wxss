@@ -1,0 +1,69 @@
+/* pages/ShopDetails/ShopDetails.wxss */
+@import '../basestyle/FlexStyle.wxss';
+.shopIndex-banner {
+  /* background: #000; */
+	margin-bottom: -78rpx;
+	height: 278rpx
+}
+
+.shopIndex-favbtn {
+  width: 140rpx;
+	height: 64rpx;
+	position: absolute;
+	right: 25rpx;
+	top: 200rpx;
+	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/icon-guanzhu.png") 0 0 no-repeat;
+	background-size: 100%;
+	font-size: 28rpx;
+	text-align: center;
+	color: #666
+}
+
+.shopIndex-favbtn_has {
+  background-image: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/icon-yiguanzhu.png")
+}
+
+.shopIndex-info {
+  position: relative;
+  padding: 0 0 0 30rpx;
+}
+
+.shopIndex-logo {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.shopIndex-aside {
+  margin-left: 25rpx;
+}
+
+.shopIndex-name {
+  height: 78rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+}
+
+.shopIndex-address {
+  background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/icon-map.png") left 30rpx no-repeat;
+	background-size: 28rpx 32rpx;
+	width: 400rpx;
+	padding: 23rpx 0;
+	padding-left: 51rpx;
+	box-sizing: border-box;
+	font-size: 28rpx;
+	line-height: 43rpx;
+	height: 132rpx
+}
+
+.shopIndex-tel {
+  margin-top: 78rpx;
+	width: 100rpx;
+	height: 100rpx;
+	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/icon-tel.png") center center no-repeat;
+	background-size: 34rpx 42rpx
+}
+
+.blank20 {
+  height: 20rpx;
+	background: #334ba8
+}

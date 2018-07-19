@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/my/MyCellPhone/MyCellPhone",
+    "pages/ShopDetails/ShopDetails",
     "pages/membership/membership",
+    "pages/sellerList/sellerList",
     "pages/searchshop/searchshop",
     "pages/demo/demo",
     "pages/home/home",

@@ -1,0 +1,28 @@
+<!-- pages/sellerList/sellerList.wxml -->
+<!-- <view class="view-container">
+  <block wx:for="{{articles}}" wx:key="{{item.id}}">
+    <view class="articles-container">
+      <view class="info">
+        <image class='avatar' src='{{item.avatar}}'></image>{{item.nickname}}  
+        <text class='created-at'>{{item.created_at}}</text>  
+        <text class='category'>{{item.category}}</text>  
+      </view>
+    </view>
+  </block>
+</view> -->
+<view class="sellerlist-container">
+  <view bindtap="ShopDetails">
+    <block>
+      <view class="articles-container">
+        <view class="info">
+          <image class='avatar' src='../../images/rank-logo.png' />
+          <view class="sellerlist-nl">
+            <view class='created-at'>贝特教育学习成长中心</view>
+            <view class='category'>充500送50 价值精美礼品一份</view>
+            <view class="">常州市天宁区龙湖香缇漫步南区24号店面</view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+/* pages/sellerList/sellerList.wxss */
+.sellerlist-container {  
+  background-color: #fff;  
+}  
+  
+.articles-container {  
+  border-bottom: 1px solid #eee;
+  height: 196rpx;
+  font-size: 12px;
+}  
+  
+.articles-container .info image {  
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 8rpx;
+  float: left;
+  margin: 28rpx 24rpx 28rpx 28rpx;
+  vertical-align: middle;
+}
+
+.sellerlist-nl {
+  float: left;
+  color:#A8A8A8;
+  margin-top: 24rpx;
+  vertical-align: middle;
+}
+  
+.articles-container .info .created-at {  
+  font-size: 32rpx;
+  color: #3B3B3B;
+  font-weight: 600;
+}  
+  
+.articles-container .info .category {  
+  color: #F8597D;  
+  margin: 20rpx 0;
+}

@@ -18,8 +18,7 @@
       <view class="mycard-number">￥2000.00</view>
     </view>
   </view>
-  <view class="mycard-item flex flex-cross-center">
-    <image src="../../images/card1.png"/>
+  <view class="mycard-item mycard-item_1 flex flex-cross-center" bindtap="sellerList">
     <view class="mycard-other">其他优惠商家</view>
   </view>
 </view>

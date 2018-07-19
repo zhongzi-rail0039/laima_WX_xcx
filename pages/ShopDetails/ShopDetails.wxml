@@ -1,0 +1,40 @@
+<!--pages/ShopDetails/ShopDetails.wxml-->
+
+<!-- <view class="shopIndex">
+  <view class="shopIndex-banner">
+    <image src="../../images/group.png" />
+    <view class="shopIndex-favbtn shopIndex-favbtn_has"></view>
+  </view>
+  <view class="shopIndex-info flex flex-main-justify">
+    <view class="shopIndex-logo flex-box0">
+      <image src="../../images/shop-logo.png" class="blockImg"/>
+    </view>
+    <view class="shopIndex-aside flex-box1">
+      <view class="shopIndex-name">BABY SPA</view>
+      <view class="shopIndex-address">新北区太湖东路创意产业园D栋1801室</view>
+    </view>
+    <view class="shopIndex-tel flex-box0"></view>
+  </view>
+  <view class="blank20"></view> -->
+
+
+  <view>
+    <image src="../../images/group.png" />
+  </view>
+
+
+  <!-- <view class="shopIndex-navList flex flex-box-mean">
+    <view class="shopIndex-navItem shopIndex-navItem_on">消费周报</view>
+    <view class="shopIndex-navItem">贡献榜</view>
+    <view class="shopIndex-navItem">粉丝榜</view>
+  </view> -->
+
+
+  <!-- <view class="nav-btnsWrap">
+    <view class="nav-btns flex flex-main-justify">
+      <navigator url="/pages/shop/deposit" class="nav-btn nav-btn1 flex-box0"><view class="icon-deposit">会员充值</view></navigator>
+      <navigator url="/pages/shop/pay" class="nav-btn nav-btn2 flex-box0">付款</navigator>
+    </view>
+  </view> -->
+  
+<!-- </view> -->

@@ -1,4 +1,4 @@
-// pages/membership/membership.js
+// pages/ShopDetails/ShopDetails.js
 Page({
 
   /**
@@ -11,14 +11,6 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-
-  sellerList: function() {
-    wx.navigateTo({
-      url: "../sellerList/sellerList"
-    })
-  },
-
-
   onLoad: function (options) {
   
   },

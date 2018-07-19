@@ -1,8 +1,8 @@
 /* pages/membership/membership.wxss */
 @import '../basestyle/FlexStyle.wxss';
-page {
-  background-color: #666;
-}
+/* page {
+  background-color: #fff;
+} */
 
 .mycard {
   margin-top: 40rpx;
@@ -52,11 +52,11 @@ page {
 	font-size: 32rpx
 }
 
-/* .mycard-other {
+.mycard-other {
 	font-size: 34rpx;
 	padding-right: 30rpx;
 	background: url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/icon-rarrow.png") right center no-repeat;
 	background-size: 20rpx 34rpx;
 	color: #FFF;
 	margin: 0 auto
-} */
+}
