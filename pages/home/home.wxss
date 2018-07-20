@@ -1,11 +1,11 @@
 /* pages/home/home.wxss */
 @import '../../app.wxss';
 @import '../basestyle/FlexStyle.wxss';
-.index .index-banner {
+.index .index-banner image {
   height: 176rpx;
-  background: #FFF url("http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/banner.png?i") left bottom no-repeat;
+  width: 100%;
   position:relative;
-  background-size:auto 176rpx;
+  background-size: auto 176rpx;
 }
 .index-time {
   position:absolute;
@@ -25,16 +25,13 @@
 
 .gTitle-title {
   font-size: 26rpx;
+  font-weight: 600;
   color: #333;
 }
 
 .gTitle-link {
   font-size: 26rpx;
   color: #999999;
-}
-
-.myshop {
-  margin-top: 22rpx;
 }
 
 .myshop-swiper swiper {
@@ -70,19 +67,25 @@
   height: 45rpx;
 }
 
+.shopItem-icon image {
+  width: 42rpx;
+  height: 30rpx;
+  float: left;
+}
+
 .shopItem-number {
   font-size: 20rpx;
   height: 36rpx;
   line-height: 36rpx;
-  padding-left: 52rpx;
-  background: url('http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/money.png') left center no-repeat;
-  background-size: auto 100%;
+  padding-left: 48rpx;
+  /* margin-top: -42rpx; */
+  /* background: url('http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/money.png') left center no-repeat; */
+  /* background-size: auto 100%; */
 }
 
-.shopItem-gz  {
+.shopItem-gz image {
   width: 94rpx;
   height: 94rpx;
-  background: url('http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/shop-gz.png') 0 0 no-repeat;
   background-size: 100%;
   position: absolute;
   right: 0;
@@ -109,8 +112,8 @@
   display: inline-block;
 	width: 134rpx;
   height: 174rpx;
-  margin-top: 36rpx;
-	margin-left: 19rpx;
+  margin-top: 32rpx;
+	margin-left: 18rpx;
 	background: url(http://sysweet-demo.oss-cn-beijing.aliyuncs.com/laima/images/sousuo.png) 0rpx 0rpx no-repeat;
   background-size: 100%;
   flex: 1 1 auto;

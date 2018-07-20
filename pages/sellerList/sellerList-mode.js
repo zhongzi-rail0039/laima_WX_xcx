@@ -1,11 +1,12 @@
 import {Base} from '../../utils/base.js'
-class Home extends Base {
+
+class SellerList extends Base {
   constructor() {
-    super();
+    super()
   }
-  getBannerData(callBack) {
+  getSellerList(callBack) {
     let params = {
-      url: '',
+      url: '/laima/user/findShopsByType?version=3&pageNum=2&accountId=125&type=4',
       sCallBack: res => {
         callBack && callBack(res)
       }
@@ -14,4 +15,4 @@ class Home extends Base {
   }
 }
 
-export {Home}
+export {SellerList}

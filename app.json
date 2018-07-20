@@ -1,19 +1,18 @@
 {
   "pages": [
-    "pages/ShopDetails/ShopDetails",
-    "pages/membership/membership",
-    "pages/sellerList/sellerList",
-    "pages/searchshop/searchshop",
-    "pages/demo/demo",
     "pages/home/home",
+    "pages/index/index",
+    "pages/sellerList/sellerList",
+    "pages/membership/membership",
+    "pages/ShopDetails/ShopDetails",
+    "pages/searchshop/searchshop",
     "pages/my/my",
     "pages/my/HarvestAddress/HarvestAddress",
     "pages/Login/Login",
     "pages/Login/cellPhoen/cellPhoen",
     "pages/my/MyContact/MyContact",
     "pages/my/MyTwoDimensionCode/MyTwoDimensionCode",
-    "pages/my/MyCellPhone/MyCellPhone",
-    "pages/index/index"
+    "pages/my/MyCellPhone/MyCellPhone"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -38,10 +37,6 @@
         "text": "我的",
         "iconPath": "./images/tabbar-i2.png",
         "selectedIconPath": "./images/tabbar-i2-on.png"
-      },
-      {
-        "pagePath": "pages/demo/demo",
-        "text": "测试页面"
       }
     ]
   }

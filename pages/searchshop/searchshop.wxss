@@ -57,7 +57,7 @@
 .search-tag {
   height: 64rpx;
   line-height: 64rpx;
-  font: 28rpx;
+  font-size: 28rpx;
   color: #333333;
   padding: 0 25rpx;
   background-color: #ffffff;

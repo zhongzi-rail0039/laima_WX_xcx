@@ -1,7 +1,7 @@
 <!-- pages/home/home.wxml -->
 <view class="index">
   <view class="index-banner">
-    <!-- <image src=""></image> -->
+    <image src="../../images/banner.png"></image>
     <view class="index-time">
       <view class="index-date">05月28号</view>
       <view class="index-week">星期一</view>
@@ -15,7 +15,7 @@
       </view>
     </view>
     <view class="myshop-swiper">
-      <swiper indicator-dots="true" autoplay="true" interval="5000" indicator-color="#5d5d5d" indicator-active-color="#fff">
+      <swiper indicator-dots="true" interval="5000" indicator-color="#5d5d5d" indicator-active-color="#fff">
         <block>
           <swiper-item>
             <view bindtap="ShopDetailed">
@@ -26,10 +26,15 @@
                   </view>
                   <view class="shopItem-info">
                     <view class="shopItem-title">第七天堂</view>
+                    <view class="shopItem-icon">
+                      <image src="../../images/money.png"/>
+                    </view>
                     <view class="shopItem-number">3709.00</view>
                   </view>
                 </view>
-                <view class="shopItem-gz"></view>
+                <view class="shopItem-gz">
+                  <image src="../../images/shop-gz.png" />
+                </view>
               </view>
             </view>
           </swiper-item>
@@ -141,7 +146,7 @@
     </view>
     <!-- 充值 -->
     <view class="consumeOrder-bd">
-      <view class="consumeOrder-item flex">
+      <!-- <view class="consumeOrder-item flex">
         <view class="consumeOrder-logo">
           <image src="../../images/fz-logo.png" class="blockImg" />
         </view>
@@ -156,41 +161,7 @@
             <view class="consumeOrder-method consumeOrder-method_wx">付款方式：</view>
           </view>
         </view>
-      </view>
-
-      <view class="consumeOrder-item flex">
-        <view class="consumeOrder-logo">
-          <image src="../../images/fz-logo.png" class="blockImg" />
-        </view>
-        <view class="consumeOrder-info flex flex-dir-top flex-main-justify flex-box1">
-          <view class="consumeOrder-hd flex">
-            <view class="consumeOrder-name">第七天堂</view>
-            <view class="consumeOrder-ago">半小时内</view>
-          </view>
-          <view class="consumeOrder-time">时间：05月24号16:21</view>
-          <view class="consumeOrder-block flex flex-main-justify">
-            <view class="consumeOrder-number">付款：120.00</view>
-            <view class="consumeOrder-method consumeOrder-method_wx">付款方式：</view>
-          </view>
-        </view>
-      </view>
-
-      <view class="consumeOrder-item flex">
-        <view class="consumeOrder-logo">
-          <image src="../../images/fz-logo.png" class="blockImg" />
-        </view>
-        <view class="consumeOrder-info flex flex-dir-top flex-main-justify flex-box1">
-          <view class="consumeOrder-hd flex">
-            <view class="consumeOrder-name">第七天堂</view>
-            <view class="consumeOrder-ago">半小时内</view>
-          </view>
-          <view class="consumeOrder-time">时间：05月24号16:21</view>
-          <view class="consumeOrder-block flex flex-main-justify">
-            <view class="consumeOrder-number">付款：120.00</view>
-            <view class="consumeOrder-method consumeOrder-method_wx">付款方式：</view>
-          </view>
-        </view>
-      </view>
+      </view> -->
 
     </view>
   </view>
